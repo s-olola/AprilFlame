@@ -248,7 +248,7 @@ with col2:
     sms_user = st.selectbox('SMS User', options=[True, False])  
 
 
-# Update the dictionary with user inputs
+# Update the dictionary with user inputs of nine (9) features
 default_features.update({
     'NRGE': nrge,
     'CALL_CNT': call_cnt,
